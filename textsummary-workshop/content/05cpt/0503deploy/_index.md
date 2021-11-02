@@ -13,7 +13,7 @@ endpoint_ecr_image="847380964353.dkr.ecr.us-east-2.amazonaws.com/cpt"
 python create_endpoint.py \
 --endpoint_ecr_image_path ${endpoint_ecr_image} \
 --endpoint_name 'cpt' \
---instance_type "ml.p2.xlarge"
+--instance_type "ml.p3.xlarge"
 ```
 
 在部署结束后，看到SageMaker控制台生成了对应的endpoint,可以使用如下客户端代码测试调用
