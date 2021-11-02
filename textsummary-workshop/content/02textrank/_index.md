@@ -1,5 +1,5 @@
 +++
-title = "基于Amazon SageMaker的TEXTRANK模型训练动手实验"
+title = "动手实验1: 基于Amazon SageMaker的TEXTRANK模型训练动手实验"
 weight = 2
 chapter = true
 pre = "<b>2. </b>"

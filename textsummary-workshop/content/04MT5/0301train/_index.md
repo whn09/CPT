@@ -1,8 +1,8 @@
 +++
-title = " bert-seq2seq模型实验"
-weight = 0310
+title = "MT5模型实验"
+weight = 0410
 chapter = true
-pre = "<b>3.1</b>"
+pre = "<b>4.1</b>"
 +++
 
 首先下载代码
@@ -50,4 +50,3 @@ CPU times: user 72.6 ms, sys: 20.7 ms, total: 93.3 ms
 Wall time: 807 ms
 ```
 
-训练部分可以参考github中readme部分。
