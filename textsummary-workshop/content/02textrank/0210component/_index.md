@@ -15,8 +15,6 @@ TextRank的详细原理请参考：
 
 > Mihalcea R, Tarau P. TextRank: Bringing order into texts[C]. Association for Computational Linguistics, 2004.
 
-关于TextRank4ZH的原理和使用介绍：[使用TextRank算法为文本生成关键字和摘要](https://www.letiantian.me/2014-12-01-text-rank/)
-
 ### 关键词提取
 将原文本拆分为句子，在每个句子中过滤掉停用词（可选），并只保留指定词性的单词（可选）。由此可以得到句子的集合和单词的集合。
 
@@ -39,10 +37,6 @@ w1, w2, w3, w4, w5, ..., wn
 
 通过pagerank算法计算得到的重要性最高的若干句子可以当作摘要。
 
-
-## 示例
-见[example](./example)、[test](./test)。
-
 ## 使用说明
 
 类TextRank4Keyword、TextRank4Sentence在处理一段文本时会将文本拆分成4种格式：
@@ -53,20 +47,20 @@ w1, w2, w3, w4, w5, ..., wn
 * words_all_filters：保留words_no_stop_words中指定词性的单词而得到的二维列表。
 
 
-# 本地部署
+# 部署
 
-server 
+ 
 ```shell script
 
 git clone https://github.com/jackie930/TextRank4ZH.git
 cd TextRank4ZH/apps/text_summry_endpoint
-sh build_and_push.sh
+#注意这里您可以部署自己的ecr image，也可以我们打包好的公共镜像，本次实验会跳过build image步骤
+##sh build_and_push.sh
 ```
 
 ## Deploy endpoint on SageMaker 
 ```shell script
-endpoint_ecr_image="847380964353.dkr.ecr.us-east-2.amazonaws.com/textrank"
-
+endpoint_ecr_image="847380964353.dkr.ecr.us-west-2.amazonaws.com/textrank"
 python create_endpoint.py \
 --endpoint_ecr_image_path ${endpoint_ecr_image} \
 --endpoint_name 'textrank' \

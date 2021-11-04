@@ -5,7 +5,13 @@ chapter = true
 pre = "<b>4.1</b>"
 +++
 
-然后打开`/home/ec2-user/SageMaker/notebooks/sagemaker/08_distributed_summarization_bart_t5/train-huggingface.ipynb`运行
+首先下载代码
+```
+cd SageMaker
+git clone https://github.com/jackie930/notebooks.git
+```
+
+然后打开`/home/ec2-user/SageMaker/notebooks/sagemaker/08_distributed_summarization_bart_t5/train-huggingface.ipynb`运行。 注意在运行前，需要将待训练的数据‘meta_description.parquet' 上传到同样的文件夹内。
 
 训练开启后，可以看到产生了对应的训练日志
 

@@ -16,7 +16,8 @@ pre = "<b>2.0</b>"
 ![](./1.png)
 
 
-填入如下配置信息，然后点击**create notebook instance**
+填入如下配置信息，然后点击**create notebook instance** 
+在iam role中，选择使用系统为你创建的role
 ![](./2.png)
 
 然后可以看到，提示笔记本正在创建中
