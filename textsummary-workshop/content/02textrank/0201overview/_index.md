@@ -9,7 +9,7 @@ pre = "<b>2.0</b>"
 
 要完成本workshop操作步骤，您需要准备一台Amazon SageMaker笔记本实例：
 
-实例类型： p3.xlarge 
+实例类型： p3.2xlarge 
 存储: 150G
 
 打开sagemaker，点击右上角的**create notebook instance**

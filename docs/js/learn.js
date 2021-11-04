@@ -1,4 +1,4 @@
-//it Scrollbar Width function
+// Scrollbar Width function
 function getScrollBarWidth() {
     var inner = document.createElement('p');
     inner.style.width = "100%";
