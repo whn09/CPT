@@ -13,12 +13,12 @@ CPT的具体结构可以看作一个输入，多个输出的非对称结构，�
 * G-Dec (Generation Decoder): 生成用Decoder，正如BART中的Decoder模块，利用encoder-decoder attention与S-Enc相连，用于生成。  
 
 
-![](./pics/05CPT/1.png)
+![](./1.png)
 
 ## 模型介绍
 
 该模型的结果SOTA：在生成任务上，在生成任务上CPT拥有与BART匹配的能力。在两个摘要数据集 (LCSTS和CSL) 和一个长文本生成数据集ADGEN测试的模型。 
-![](./pics/05CPT/2.png)
+![](./2.png)
 
 ## reference
 
