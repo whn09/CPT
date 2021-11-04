@@ -53,7 +53,7 @@ w1, w2, w3, w4, w5, ..., wn
 ```shell script
 
 git clone https://github.com/jackie930/TextRank4ZH.git
-cd TextRank4ZH/apps/text_summry_endpoint
+cd TextRank4ZH/apps/text_summary_endpoint
 #注意这里您可以部署自己的ecr image，也可以我们打包好的公共镜像，本次实验会跳过build image步骤
 ##sh build_and_push.sh
 ```
