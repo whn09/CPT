@@ -5,7 +5,7 @@ chapter = true
 pre = "<b>4.1</b>"
 +++
 
-首先下载代码
+首先下载代码, ！注意，如果你已经执行过实验2bart，无需重复下载，直接打开即可。
 ```
 cd SageMaker
 git clone https://github.com/jackie930/notebooks.git
