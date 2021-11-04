@@ -9,13 +9,13 @@ pre = "<b>4. </b>"
 
 Transformer For Text Summary：T5 (JMLR): 旨在开发NLP通用模型：将多个NLP下游任务抽象为text-to-text的任务，不同的任务使用不同的profix来代表，由于任务类型相同，故可以协同训练。
 
-![](../pics/04MT5/1.png)
+![](./pics/04MT5/1.png)
 
 mT5: A massively multilingualpre-trained text-to-text transformer 2021 google research 
 
 大规模多语言T5预训练语言模型mT5，在覆盖101种语言的新的Common Crawl数据集上进行预训练，可直接适用于多语言场景，在各种基准测试集上展现出强大的性能。
 
-![](../pics/04MT5/2.png)
+![](./pics/04MT5/2.png)
 
 
 ## reference

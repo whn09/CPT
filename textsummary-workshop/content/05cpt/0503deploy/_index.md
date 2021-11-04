@@ -8,12 +8,12 @@ pre = "<b>5.3</b>"
 然后部署一个预置的endpoint
 
 ```shell script
-endpoint_ecr_image="847380964353.dkr.ecr.us-east-2.amazonaws.com/cpt"
+endpoint_ecr_image="847380964353.dkr.ecr.us-west-2.amazonaws.com/cpt"
 
 python create_endpoint.py \
 --endpoint_ecr_image_path ${endpoint_ecr_image} \
 --endpoint_name 'cpt' \
---instance_type "ml.p3.xlarge"
+--instance_type "ml.p3.2xlarge"
 ```
 
 在部署结束后，看到SageMaker控制台生成了对应的endpoint,可以使用如下客户端代码测试调用
