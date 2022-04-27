@@ -45,7 +45,7 @@ if not os.path.exists(outdir):
 
 seed = len(os.listdir(outdir)) + 1
 outdir = outdir + '/' + str(seed)
-length_map = {'lcsts': '30', 'csl': '50', 'adgen': '128', 'hk01': '64', 'hk01meta': '80'}
+length_map = {'lcsts': '30', 'csl': '50', 'adgen': '128', 'hk01': '64', 'hk01meta': '80', 'meta': '300'}
 
 args = [
     '--model_name_or_path', arg_dict['model_path'],
